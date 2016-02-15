@@ -1,0 +1,141 @@
+.image-size {
+  width: 100px; }
+
+.avatar {
+  width: 15%;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px; }
+
+.banner {
+  background-size: cover !important;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center; }
+
+footer {
+  background: #333333;
+  padding: 75px; }
+  footer p {
+    color: white; }
+
+i {
+  margin: 5px 20px;
+  color: #2ECC71;
+  opacity: 1; }
+  i:hover {
+    opacity: 0.3; }
+
+.text-right {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  font-size: 2rem; }
+
+.card-background {
+  background-size: cover !important;
+  height: 250px;
+  color: white;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  margin-bottom: 40px;
+  border-radius: 5px;
+  position: relative; }
+
+.card-city {
+  position: absolute;
+  top: 10px;
+  left: 10px; }
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px; }
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  opacity: 0;
+  background-color: black;
+  transition-delay: 1s; }
+  .card-link:hover {
+    opacity: 0.15; }
+
+.email-group {
+  padding: 55px 0; }
+
+.form-inline {
+  padding: 15px; }
+
+.form-email {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px 0; }
+
+.btn-success {
+  margin-top: 20px; }
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: pink; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: pink; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: pink; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: pink; }
+
+@media (min-width: 767px) {
+  .form-email {
+    width: 500px; }
+
+  .btn-success {
+    margin-top: 0px; } }
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif; }
+
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif; }
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 0; }
+
+.padded {
+  padding: 80px 0; }
+
+.banner .banner-content h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700; }
+.banner .banner-content p {
+  color: #C7CCCF;
+  font-size: 20px; }
+.banner .banner-content .button {
+  margin-top: 50px; }
+
+.feature {
+  padding: 20px 0; }
+  .feature:first-child {
+    padding-top: 0; }
+  .feature h2 {
+    font-size: 2rem; }
+
+.wrapper-grey {
+  padding-top: 30px;
+  background-color: #F4F4F4; }

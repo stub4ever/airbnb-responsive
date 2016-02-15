@@ -1,0 +1,60 @@
+@import 'components/avatar';
+@import 'components/banner';
+@import 'components/footer';
+@import 'components/card';
+@import 'components/forms';
+
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 0;
+}
+.padded {
+  padding: 80px 0;
+}
+
+.banner {
+  .banner-content {
+    h1 {
+      color: white;
+      font-size: 50px;
+      font-weight: 700;
+    }
+    p {
+      color: #C7CCCF;
+      font-size: 20px;
+    }
+    .button {
+      margin-top: 50px;
+    }
+  }
+}
+
+.feature {
+  padding: 20px 0;
+  &:first-child {
+    padding-top: 0;
+  }
+  h2 {
+    font-size:2rem;
+  }
+}
+
+.wrapper-grey {
+  padding-top: 30px;
+  background-color: #F4F4F4;
+}
+
+
+
+
+
+
+

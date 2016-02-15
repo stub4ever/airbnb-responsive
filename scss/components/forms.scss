@@ -1,0 +1,42 @@
+.email-group {
+  padding: 55px 0;
+}
+
+
+.form-inline {
+  padding: 15px;
+}
+.form-email {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.btn-success {
+  margin-top: 20px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: pink;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: pink;
+}
+
+
+@media (min-width: 767px) {
+  .form-email {
+    width: 500px;
+  }
+
+  .btn-success {
+    margin-top: 0px;
+  }
+
+}
